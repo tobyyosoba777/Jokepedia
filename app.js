@@ -21,7 +21,7 @@ function fetchJoke() {
 
            flagsContainer.innerHTML = ""
            Object.entries(flagList).filter(([key, value]) => value).forEach(([key, value]) => {
-            // Append each false flag as a list item to the flags container
+            // Appends each false flag as a list item to the flags container
             flagsContainer.innerHTML += `<p class="outline-text">${key}</p>`;
         });
 
