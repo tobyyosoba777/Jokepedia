@@ -61,6 +61,7 @@ nav {
      font-weight: bold;
      font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
+    text-align: center;
 }
 
 .joke {
@@ -129,16 +130,16 @@ select {
 }
 
 .footer {
-    font-size: 1.3em;
+    font-size: 1.1em;
     margin-top: 48px;
     font-weight: 700;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Rubik" sans-serif;
 }
 
 @media screen and (max-width: 850px) {
     .container {
         width: 90vw;
-        height: 68vh;
+        height: fit-content;
     }
     .container header {
         font-size: 1.5em;
@@ -151,7 +152,7 @@ select {
 @media screen and (max-width: 768px) {
     .container {
         width: 94vw;
-        height: 65vh;
+        height: fit-content;
     }
     .container header {
         font-size: 1.4em;

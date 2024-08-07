@@ -39,3 +39,6 @@ fetch('https://v2.jokeapi.dev/joke/Any')
         console.log(data)
         console.log(data.flags)
     })
+
+const year = new Date().getFullYear()
+document.querySelector("#date").textContent = year
