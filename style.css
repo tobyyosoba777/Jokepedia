@@ -43,6 +43,7 @@ nav {
     /* max-height: 200px; */
     /* background: #ffee8e; */
     background: #12e3ff;
+    /* background: #505bff; */
     color: #fff;
     width: 850px;
     height: 460px;
@@ -68,6 +69,7 @@ nav {
     text-align: center;
     color: #ffffff;
     font-size: 1.3em;
+    /* -webkit-text-stroke: 1px #000000; */
 }
 
 .category {
@@ -84,7 +86,7 @@ nav {
     gap: 10px;
     text-align: center; 
     background-color: #60ffea;
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
 }
 
@@ -122,18 +124,20 @@ button:hover {
 
 select {
     padding: 10px 2px;
-    color: #1f0000;
+    color: #2e0000;
     font-weight: 500;
     outline: none;
     border: none;
+    /* border-radius: 5px; */
     
 }
 
 .footer {
-    font-size: 1.1em;
+    font-size: 1em;
     margin-top: 48px;
     font-weight: 700;
     font-family: "Rubik" sans-serif;
+    text-align: center;
 }
 
 @media screen and (max-width: 850px) {
@@ -144,8 +148,16 @@ select {
     .container header {
         font-size: 1.5em;
     }
+    .joke {
+        font-size: 1.05em;
+        margin: 18px 0;
+    }
     button {
         font-size: 0.95em;
+    }
+    .footer {
+        font-size: 0.8em;
+        font-weight: 400;
     }
 }
 
